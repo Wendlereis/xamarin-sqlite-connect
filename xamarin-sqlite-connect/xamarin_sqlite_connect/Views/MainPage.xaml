@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:xamarin_sqlite_connect"
+             x:Class="xamarin_sqlite_connect.MainPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Name"></Label>
+        <Entry x:Name="txtName" Placeholder="Type your name"></Entry>
+        
+        <Label Text="E-mail"></Label>
+        <Entry x:Name="txtEmail" Placeholder="Type your e-mail" Keyboard="Email"></Entry>
+
+        <Label Text="Phone Number"></Label>
+        <Entry x:Name="txtPhonenumber" Placeholder="Type your phone number" Keyboard="Telephone"></Entry>
+
+        <Button x:Name="btnSave" Text="Save"></Button>
+
+        <ListView x:Name="lstCostumers"></ListView>
+    </StackLayout>
+
+</ContentPage>
